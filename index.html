@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="assets/images/favicon.png" rel="icon">
+    <link href="assest/css/normalize.css" rel="stylesheet">
+    <link href="assets/css/font.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/index.css" rel="stylesheet">
+  </head>
+  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+      if (window.jQuery == undefined) {
+        var scriptNew = document.createElement("script");
+        scriptNew.async = true;
+        scriptNew.src = "js/vendor/jquery-3.2.1.min.js";
+        var scriptFirst = document.getElementsByTagName('script')[0];
+        scriptFirst.parentNode.insertBefore(scriptNew, scriptFirst);
+      }
+    </script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
